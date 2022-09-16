@@ -29,7 +29,7 @@ public class Test {
          *  4. 函数可以作为返回值来使用
          */
         System.out.println(fn1(() -> new User("lxx9", 23), "User"));
-        System.out.println(fn2().getObject());;
+        System.out.println(fn2().getObject());
     }
 
     // 函数(lambda)可以是作为参数来使用
