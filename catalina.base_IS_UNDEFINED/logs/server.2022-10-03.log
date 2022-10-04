@@ -1,0 +1,36 @@
+2022-10-03 00:36:02.807 [main] INFO  com.lihh.Springboot01Application - Starting Springboot01Application using Java 1.8.0_151 on DESKTOP-RI7J3IM with PID 27920 (E:\my_project\Java-learn\springboot01\target\classes started by Lenovo in E:\my_project\Java-learn)
+2022-10-03 00:36:02.809 [main] INFO  com.lihh.Springboot01Application - No active profile set, falling back to default profiles: default
+2022-10-03 00:36:03.422 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-10-03 00:36:03.427 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-03 00:36:03.427 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-03 00:36:03.427 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-10-03 00:36:03.471 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot02] - Initializing Spring embedded WebApplicationContext
+2022-10-03 00:36:03.471 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 629 ms
+2022-10-03 00:36:03.680 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-03 00:36:03.780 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-10-03 00:36:03.790 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springboot02'
+2022-10-03 00:36:03.840 [main] INFO  com.lihh.Springboot01Application - Started Springboot01Application in 1.305 seconds (JVM running for 1.943)
+2022-10-03 00:36:12.047 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot02] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-03 00:36:12.048 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-03 00:36:12.048 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-10-03 00:36:12.068 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-10-03 00:36:12.142 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-10-03 00:36:12.146 [http-nio-8080-exec-1] DEBUG com.lihh.mapper.UserMapper.getUserList - ==>  Preparing: select id, name, age from user
+2022-10-03 00:36:12.159 [http-nio-8080-exec-1] DEBUG com.lihh.mapper.UserMapper.getUserList - ==> Parameters: 
+2022-10-03 00:36:12.171 [http-nio-8080-exec-1] DEBUG com.lihh.mapper.UserMapper.getUserList - <==      Total: 2
+2022-10-03 01:18:14.597 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-03 01:18:14.598 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-10-03 01:18:14.600 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-10-03 19:02:41.088 [main] INFO  com.lihh.Springboot01Application - Starting Springboot01Application using Java 1.8.0_151 on DESKTOP-RI7J3IM with PID 13756 (E:\my_project\Java-learn\springboot01\target\classes started by Lenovo in E:\my_project\Java-learn)
+2022-10-03 19:02:41.089 [main] INFO  com.lihh.Springboot01Application - No active profile set, falling back to default profiles: default
+2022-10-03 19:02:41.715 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-10-03 19:02:41.720 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-03 19:02:41.721 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-03 19:02:41.721 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-10-03 19:02:41.768 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot02] - Initializing Spring embedded WebApplicationContext
+2022-10-03 19:02:41.768 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 650 ms
+2022-10-03 19:02:42.012 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-03 19:02:42.138 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-10-03 19:02:42.149 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springboot02'
+2022-10-03 19:02:42.192 [main] INFO  com.lihh.Springboot01Application - Started Springboot01Application in 1.375 seconds (JVM running for 2.025)
+2022-10-03 19:05:51.951 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
