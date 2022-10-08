@@ -1,6 +1,7 @@
 server:
   servlet:
     context-path: /springboot02
+  port: 8081
 
 mybatis:
   mapper-locations: classpath:mybatis/*.xml
