@@ -1,0 +1,49 @@
+2022-10-05 09:20:44.204 [main] INFO  com.lihh.Springboot01Application - Starting Springboot01Application using Java 1.8.0_151 on DESKTOP-RI7J3IM with PID 1436 (E:\my_project\Java-learn\springboot01\target\classes started by Lenovo in E:\my_project\Java-learn)
+2022-10-05 09:20:44.206 [main] INFO  com.lihh.Springboot01Application - No active profile set, falling back to default profiles: default
+2022-10-05 09:20:44.907 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-10-05 09:20:44.913 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-05 09:20:44.914 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-05 09:20:44.914 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-10-05 09:20:44.960 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot02] - Initializing Spring embedded WebApplicationContext
+2022-10-05 09:20:44.960 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 722 ms
+2022-10-05 09:20:45.216 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-05 09:20:45.328 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-10-05 09:20:45.335 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-10-05 09:20:45.335 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-05 09:20:45.337 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2022-10-05 09:20:45.337 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-05 09:20:45.340 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2022-10-05 09:20:45.340 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2022-10-05 09:20:45.345 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-05 09:20:45.384 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-10-05 09:21:21.587 [main] INFO  com.lihh.Springboot01Application - Starting Springboot01Application using Java 1.8.0_151 on DESKTOP-RI7J3IM with PID 3496 (E:\my_project\Java-learn\springboot01\target\classes started by Lenovo in E:\my_project\Java-learn)
+2022-10-05 09:21:21.589 [main] INFO  com.lihh.Springboot01Application - No active profile set, falling back to default profiles: default
+2022-10-05 09:21:22.223 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-05 09:21:22.228 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-05 09:21:22.228 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-05 09:21:22.228 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-10-05 09:21:22.268 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot02] - Initializing Spring embedded WebApplicationContext
+2022-10-05 09:21:22.269 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 651 ms
+2022-10-05 09:21:22.476 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-05 09:21:22.578 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-05 09:21:22.589 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot02'
+2022-10-05 09:21:22.595 [main] INFO  com.lihh.Springboot01Application - Started Springboot01Application in 1.272 seconds (JVM running for 1.894)
+2022-10-05 09:22:02.076 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot02] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-05 09:22:02.077 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-05 09:22:02.078 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-10-05 09:23:02.314 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

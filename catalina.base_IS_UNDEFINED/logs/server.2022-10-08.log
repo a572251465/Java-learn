@@ -1,0 +1,46 @@
+2022-10-08 21:54:15.604 [main] INFO  com.lihh.Springboot01Application - Starting Springboot01Application using Java 1.8.0_151 on DESKTOP-RI7J3IM with PID 19204 (E:\my_project\Java-learn\springboot01\target\classes started by Lenovo in E:\my_project\Java-learn)
+2022-10-08 21:54:15.606 [main] INFO  com.lihh.Springboot01Application - No active profile set, falling back to default profiles: default
+2022-10-08 21:54:16.255 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-08 21:54:16.260 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-08 21:54:16.261 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-08 21:54:16.261 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-10-08 21:54:16.305 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot02] - Initializing Spring embedded WebApplicationContext
+2022-10-08 21:54:16.305 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 669 ms
+2022-10-08 21:54:16.517 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-08 21:54:16.629 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-08 21:54:16.641 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot02'
+2022-10-08 21:54:16.648 [main] INFO  com.lihh.Springboot01Application - Started Springboot01Application in 1.325 seconds (JVM running for 1.94)
+2022-10-08 21:55:01.723 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot02] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-08 21:55:01.724 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-08 21:55:01.724 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-10-08 21:55:01.746 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-10-08 21:55:01.818 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-10-08 21:55:01.822 [http-nio-8081-exec-1] DEBUG com.lihh.mapper.UserMapper.getUserList - ==>  Preparing: select id, name, age from user
+2022-10-08 21:55:01.834 [http-nio-8081-exec-1] DEBUG com.lihh.mapper.UserMapper.getUserList - ==> Parameters: 
+2022-10-08 21:55:01.849 [http-nio-8081-exec-1] DEBUG com.lihh.mapper.UserMapper.getUserList - <==      Total: 2
+2022-10-08 21:55:17.782 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-08 21:55:17.782 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-10-08 21:55:17.789 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-10-08 21:55:21.647 [main] INFO  com.lihh.Springboot01Application - Starting Springboot01Application using Java 1.8.0_151 on DESKTOP-RI7J3IM with PID 21644 (E:\my_project\Java-learn\springboot01\target\classes started by Lenovo in E:\my_project\Java-learn)
+2022-10-08 21:55:21.649 [main] INFO  com.lihh.Springboot01Application - No active profile set, falling back to default profiles: default
+2022-10-08 21:55:22.293 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-08 21:55:22.298 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-08 21:55:22.299 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-08 21:55:22.299 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-10-08 21:55:22.341 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot02] - Initializing Spring embedded WebApplicationContext
+2022-10-08 21:55:22.341 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 665 ms
+2022-10-08 21:55:22.551 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-08 21:55:22.654 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-08 21:55:22.664 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/springboot02'
+2022-10-08 21:55:22.701 [main] INFO  com.lihh.Springboot01Application - Started Springboot01Application in 1.314 seconds (JVM running for 1.953)
+2022-10-08 21:55:25.119 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot02] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-08 21:55:25.119 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-10-08 21:55:25.120 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-10-08 21:55:25.139 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-10-08 21:55:25.203 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-10-08 21:55:25.207 [http-nio-8081-exec-1] DEBUG com.lihh.mapper.UserMapper.getUserList - ==>  Preparing: select id, name, age from user
+2022-10-08 21:55:25.221 [http-nio-8081-exec-1] DEBUG com.lihh.mapper.UserMapper.getUserList - ==> Parameters: 
+2022-10-08 21:55:25.234 [http-nio-8081-exec-1] DEBUG com.lihh.mapper.UserMapper.getUserList - <==      Total: 2
+2022-10-08 22:04:05.262 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-08 22:04:05.262 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-10-08 22:04:05.269 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
